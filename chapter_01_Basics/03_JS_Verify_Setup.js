@@ -1,6 +1,6 @@
-console.log(process.platform);
+//console.log(process.platform);
 //win
-console.log(process.arch);
+//console.log(process.arch);
 
 //x64
 console.log(process.version);
