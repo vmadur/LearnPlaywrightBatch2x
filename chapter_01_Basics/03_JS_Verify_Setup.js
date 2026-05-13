@@ -5,3 +5,5 @@
 //x64
 console.log(process.version);
 //v24.15.0
+console.log(process.platform);
+console.log(process.arch);

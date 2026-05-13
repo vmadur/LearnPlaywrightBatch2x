@@ -10,7 +10,7 @@
 //var lastName = "kumar";
 //console.log(lastName); // Output: kumar
 //var first_name = "vijay"; // snake case convention
-//console.log(first_name); // Output: vijay snake case is a naming convention in which words are separated by underscores. It is less commonly used in JavaScript but can be seen in some codebases. In this example, "first_name" is a variable that follows snake_case convention.  
+//console.log(first_name); // Output: vijay snake case is a naming convention in which words are separated by underscores. It is less commonly used in JavaScript but can be seen in some codebases. In this example, "first_name" is a variable that follows snake_case convention.
 
 ///avaScript Naming Conventions
 //camelCase for variables and functions

@@ -1,0 +1,18 @@
+Kumar was a junior tester who knew only manual testing. Every day, he clicked the same buttons, filled the same forms, and checked the same pages. It was boring and slow.
+
+One evening, his senior dev showed him Playwright. "Write a script once, and it tests everything for you," she said. Kumar was amazed.
+
+That night, he installed Node.js and wrote his first script:
+
+```javascript
+const { chromium } = require('playwright');
+const browser = await chromium.launch();
+```
+
+The browser opened by itself. Kumar gasped. He had commanded a machine.
+
+Over weeks, he learned locators, assertions, and auto-waits. His tests ran in Chrome, Firefox, and Safari — all with one codebase. No more manual clicking.
+
+On his first automation demo, his suite caught a regression in minutes that manual testers missed for days. His manager smiled.
+
+From that day, Kumar wasn't just a manual tester. He was an automation engineer with Playwright.
