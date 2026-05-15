@@ -9,3 +9,5 @@ let backtick = `Hello ${name}`;
 console.log(single);   // Hello Kumar
 console.log(double);   // Hello Kumar
 console.log(backtick); // Hello Kumar
+
+
