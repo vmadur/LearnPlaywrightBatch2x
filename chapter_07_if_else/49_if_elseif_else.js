@@ -1,4 +1,4 @@
-let marks = 50
+let marks = 30
 
 if (marks >= 90) {
     console.log("Grade: A++");
@@ -15,3 +15,21 @@ if (marks >= 90) {
 } else {
     console.log("Need Improvement - work harder");
 }
+
+let score = 55;
+if (score >= 90) {
+    console.log("A");
+} else if (score >= 80) {
+    console.log("B");
+} else if (score >= 70) {
+    console.log("C");
+} else if (score >= 60) {
+    console.log("D");
+} else {
+    console.log("F-Fail");
+    console.log("Rewatch all videos and give test again")
+}
+
+
+
+
