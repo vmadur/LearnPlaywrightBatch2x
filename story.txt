@@ -16,3 +16,43 @@ Over weeks, he learned locators, assertions, and auto-waits. His tests ran in Ch
 On his first automation demo, his suite caught a regression in minutes that manual testers missed for days. His manager smiled.
 
 From that day, Kumar wasn't just a manual tester. He was an automation engineer with Playwright.
+
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="60" viewBox="0 0 400 60">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#555"/>
+      <stop offset="100%" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4caf50"/>
+      <stop offset="100%" stop-color="#81c784"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.4)" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.8)" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.4)" stop-opacity="0.4"/>
+    </linearGradient>
+    <clipPath id="progress-clip">
+      <rect x="0" y="0" width="400" height="60" rx="6"/>
+    </clipPath>
+  </defs>
+  <rect width="400" height="60" rx="6" fill="url(#bg)"/>
+  <rect width="400" height="60" rx="6" fill="url(#fill)" clip-path="url(#progress-clip)">
+    <animate attributeName="width" from="0" to="400" dur="2s" fill="freeze"/>
+  </rect>
+  <rect x="-100" y="0" width="80" height="60" fill="url(#shine)" clip-path="url(#progress-clip)">
+    <animate attributeName="x" from="-100" to="500" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="20" y="36" font-family="monospace" font-size="18" font-weight="bold" fill="#fff">
+    Playwright Progress
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze"/>
+  </text>
+  <text x="370" y="36" font-family="monospace" font-size="18" font-weight="bold" fill="#fff" text-anchor="end">
+    100%
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze"/>
+  </text>
+  <text x="390" y="36" font-family="monospace" font-size="18" fill="#fff" text-anchor="end">
+    ✓
+    <animate attributeName="opacity" values="0;1;1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </text>
+</svg>
