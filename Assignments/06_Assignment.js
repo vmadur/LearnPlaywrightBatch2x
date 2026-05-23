@@ -8,9 +8,9 @@ scalene (no sides are equal).
 Use an if-else statement to classify the triangle.
 */
 
-let a = 6,
-    b = 10,
-    c = 9;
+let a = 16;
+b = 6;
+c = 10;
 
 if (a === b && b === c && c === a) {
     console.log(
@@ -24,4 +24,29 @@ if (a === b && b === c && c === a) {
     console.log(
         `The value of a - ${a},b - ${b},c - ${c} none are same - Scalene Triangle`,
     );
+}
+
+/*
+Triangle Classifier:
+*/
+let a = 10; b = 10; c = 10;
+if (a === b && b === c) {
+    console.log("Triangle is equilateral-three sides are same");
+}
+else if (a === b || b === c || a === c) {
+    console.log("Triangle is isosceles-two sides are same");
+}
+else {
+    console.log("Triangle is scalene-sides none are same");
+}
+//
+let a = 10, b = 20, c = 30;
+if (a === b && b === c && a === c) {
+    console.log("It is an equilateral triangle -three sides are same")
+}
+else if (a === b && b === c && a !== c) {
+    console.log("It is an isosceles triangle -two sides are same")
+}
+else {
+    console.log("It is an scalene triangles -sides none are same")
 }
