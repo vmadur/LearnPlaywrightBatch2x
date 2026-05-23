@@ -1,5 +1,7 @@
 # Learn Playwright - Batch 2
 
+<img src="progress.svg" alt="Course Progress">
+
 A JavaScript fundamentals curriculum designed to build a strong foundation for Playwright test automation.
 
 ## Course Content
