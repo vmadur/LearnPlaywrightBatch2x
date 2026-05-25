@@ -50,3 +50,5 @@ else if (a === b && b === c && a !== c) {
 else {
     console.log("It is an scalene triangles -sides none are same")
 }
+//
+`for (let i = 0; i < 5; i++) { if (i === 3) break; } console.log(i);`
