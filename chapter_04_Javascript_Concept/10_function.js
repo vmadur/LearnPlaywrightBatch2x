@@ -6,3 +6,16 @@ function greet() {
 greet();
 greet();
 greet();
+
+function greet() {
+    console.log("learning functions in playwright")
+}
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
