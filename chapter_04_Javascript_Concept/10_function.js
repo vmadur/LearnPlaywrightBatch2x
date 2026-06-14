@@ -19,3 +19,30 @@ greet();
 greet();
 greet();
 greet();
+
+function say() {
+    console.log("Hi Function one");
+}
+say()
+say()
+say()
+say()
+say()
+say()
+say()
+say()
+say()
+
+function greet() {
+    console.log("Hi how are you doing Sir");
+}
+
+greet()
+greet()
+greet()
+greet()
+greet()
+greet()
+greet()
+greet()
+greet()

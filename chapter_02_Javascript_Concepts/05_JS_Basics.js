@@ -7,3 +7,24 @@ console.log(v);   // 12
 
 let n = 5;
 console.log(n)
+
+
+var v = 5;
+console.log(v);
+
+var v = 25;
+console.log(v);
+
+function say() {
+    console.log("Hi to function1")
+}
+say()
+say()
+say()
+say()
+say()
+say()
+say()
+say()
+say()
+say()
