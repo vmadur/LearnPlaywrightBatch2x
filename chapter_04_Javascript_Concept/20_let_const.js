@@ -6,3 +6,6 @@ console.log("Hi");
 console.log("Hi");
 console.log("Hi");
 const c = "Vijay;"
+
+console.log('c')
+let 
