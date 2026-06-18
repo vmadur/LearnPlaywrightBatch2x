@@ -61,3 +61,4 @@ console.log(5 !== "5"); // true    ==> strict inequality operator considers 5 an
 // but in case of == loose equality operator we will check for the value only,
 //  but before checking the value it will do type coercion if the data types are different.
 
+console.log(5 !== "5");// true

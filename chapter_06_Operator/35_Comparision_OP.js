@@ -54,4 +54,5 @@ console.log(10 !== '10'); // true (strict inequality, no type coercion)
 //10 === '10' false (strict equality, no type coercion)
 //10 != '5' true (loose inequality, type coercion)
 //10 !== '10' true (strict inequality, no type coercion)    
-
+console.log(5 > 4);
+console.log(3 <= 4);

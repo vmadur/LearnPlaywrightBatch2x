@@ -22,6 +22,8 @@ console.log(x); // 7
 console.log(x); // 3 => 7 % 4 = 3   
 
 //let x % = 2;    // x = x % 2
-console.log(x); // 1 => 3 % 2 = 1  
+console.log(x); // 1 => 3 % 2 = 1
+
+
 
 
