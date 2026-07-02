@@ -10,3 +10,14 @@ console.log(greeting);
 console.log(a); // ReferenceError: Cannot access 'a
 var a = "Pramod"; // 
 console.log(a); // "Pramod"
+
+console.log(greeting);
+var greeting = 'Hello';
+console.log(greeting);
+
+// behind the scenes:
+
+//var greeting;  <--hoisted with undefined
+//console.log (greeting);   <-- undefined
+//greeting = "Hello!";  <-- assignment stays in place
+// console.log(greeting);  <-- "Hello"

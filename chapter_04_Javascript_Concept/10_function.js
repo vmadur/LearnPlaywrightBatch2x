@@ -46,3 +46,21 @@ greet()
 greet()
 greet()
 greet()
+
+// 1. DEFINE OF THE FUNCTION
+function greet() {
+    console.log("Hi how do you do?");
+}
+// 2. calling of the function (something that 
+// is reusable is a function)
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
+greet();
+

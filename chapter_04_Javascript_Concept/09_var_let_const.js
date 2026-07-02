@@ -29,3 +29,11 @@ var browser = "edge"; // No error, var allows redeclaration and reassignment
 var browser = "firefox"; // No error, var allows redeclaration and reassignment
 browser = "safari"; // No error, var allows reassignment
 console.log(browser); // Output: safari
+
+var v = 10;
+let l = 30;
+const c = 3.14;
+
+var browser = "chrome";
+var browser = "firefox"; //redeclaration allowed
+browser = "edge" // reassignment allowed

@@ -19,3 +19,16 @@ function printHello() {
     printHello(); // Output: Hello, World!
 }
 
+
+console.log(a); //Global scope
+
+function printHello() {
+    console.log("Hello, TheTestingAcademy!");
+    var a = 20; // local scope
+    console.log(a);
+    if (true) {
+        var a = 30;
+        console.log(a);
+    }
+}
+printHello();
